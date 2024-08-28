@@ -130,7 +130,7 @@ namespace inkybit {
      */
     /*
     //% blockId=inkybit_draw_icon
-    //% block="draw icon %icon| at x %x| y %y| with color %color| and size %size"
+    //% block="draw icon %icon| at x %x y %y| with color %color| and size %size"
     //% icon.fieldEditor="gridpicker"
     //% icon.fieldOptions.width="400" icon.fieldOptions.columns="5"
     //% icon.fieldOptions.itemColour="black" icon.fieldOptions.tooltips="true"
@@ -151,7 +151,7 @@ namespace inkybit {
      */
     /*
     //% blockId=inkybit_draw_arrow
-    //% block="draw arrow %arrow| at x %x| y %y| with color %color| and size %size"
+    //% block="draw arrow %arrow| at x %x y %y| with color %color| and size %size"
     //% x.min=0 x.max=249
     //% y.min=0 y.max=119
     */
@@ -168,7 +168,7 @@ namespace inkybit {
      * @param color - color to set (0-2)
      */
     //% blockId=inkybit_draw_image
-    //% block="draw image %image| at x %x| y %y| with color %color| and size %size"
+    //% block="draw image %image| at x %x y %y| with color %color| and size %size"
     //% x.min=0 x.max=249
     //% y.min=0 y.max=119
     export function drawImage(image: Image, x: number, y: number, color: Color = Color.Black, size: TextSize = TextSize.Regular): void {
@@ -192,7 +192,7 @@ namespace inkybit {
      * @param color - color to set (0-2)
      */
     //% blockId=inkybit_set_pixel
-    //% block="set pixel at x %x| y %y| with color %color"
+    //% block="set pixel| at x %x y %y| with color %color"
     //% x.min=0 x.max=249
     //% y.min=0 y.max=119
     export function setPixel(x: number, y: number, color: Color = Color.Black): void {
@@ -219,7 +219,7 @@ namespace inkybit {
      * @param filled - whether to fill the rectangle with color
      */
     //% blockId=inkybit_draw_rectangle
-    //% block="draw rectangle at x %x| y %y| width %width| height %height| color %color| filled %filled"
+    //% block="draw rectangle| at x %x y %y| width %width| height %height| color %color| filled %filled"
     //% x.min=0 x.max=249
     //% y.min=0 y.max=119
     //% width.min=0 width.max=249
@@ -260,7 +260,7 @@ namespace inkybit {
      * @param color - color to set (0-2)
      */
     //% blockId=inkybit_draw_line
-    //% block="draw line from x %x0 y %y0| to x %x1 y %y1| color %color"
+    //% block="draw line| from x %x0 y %y0| to x %x1 y %y1| color %color"
     //% x0.min=0 x0.max=249
     //% y0.min=0 y0.max=119
     //% x1.min=0 x1.max=249
@@ -364,7 +364,7 @@ namespace inkybit {
      * @param brightness - brightness to set (0-255)
      */
     //% blockId=inkybit_draw_text
-    //% block="draw text %text| at x %x| y %y| with color %color| and size %size"
+    //% block="draw text %text| at x %x y %y| with color %color| and size %size"
     //% x.min=0 x.max=249
     //% y.min=0 y.max=119
     export function drawText(text: string, x: number, y: number, color: Color = Color.Black, size: TextSize = TextSize.Regular): void {
@@ -432,7 +432,7 @@ namespace inkybit {
      * @param height - height (0-119)
      */
     //% blockId=inkybit_clear_rectangle
-    //% block="clear rectangle at x %x| y %y| width %width| height %height"
+    //% block="clear rectangle| at x %x y %y| width %width| height %height"
     //% x.min=0 x.max=249
     //% y.min=0 y.max=119
     //% width.min=0 width.max=249
