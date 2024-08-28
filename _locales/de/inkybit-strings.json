@@ -1,5 +1,5 @@
 {
-  "inkybit.Color.Accent|block": "rot/gelb",
+  "inkybit.Color.Accent|block": "rot / gelb",
   "inkybit.Color.Black|block": "schwarz",
   "inkybit.Color.White|block": "weiß",
   "inkybit.PixelSize.Double|block": "doppelt (2x)",
@@ -8,7 +8,7 @@
   "inkybit.PixelSize.Triple|block": "dreifach (3x)",
   "inkybit.TextSize.Large|block": "groß (4x)",
   "inkybit.TextSize.Medium|block": "mittel (3x)",
-  "inkybit.TextSize.Regular|block": "regulär (2x)",
+  "inkybit.TextSize.Regular|block": "normal (2x)",
   "inkybit.TextSize.Tiny|block": "klein (1x)",
   "inkybit.clearRectangle|block": "lösche Rechteck| bei x %x y %y| Breite %width Höhe %height",
   "inkybit.clear|block": "lösche Display",
