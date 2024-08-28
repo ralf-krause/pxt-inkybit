@@ -1,7 +1,7 @@
 {
     "name": "inkybit",
-    "version": "0.0.5",
-    "description": "Pimoroni Inky:Bit",
+    "version": "0.0.6",
+    "description": "MakeCode extension for Pimoroni Inky:Bit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -11,7 +11,9 @@
         "display.cpp",
         "font.cpp",
         "shims.d.ts",
-        "inkybit.ts"
+        "inkybit.ts",
+        "_locales/de/inkybit-strings.json",
+        "_locales/de/inkybit-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
